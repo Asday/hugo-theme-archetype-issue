@@ -1,8 +1,12 @@
+# Deprecated repository
+
+Good morning, intrepid present-day viewers.  The issue has been resolved in 0.20.  Thank you much, Hugo.
+
 # Hugo theme archetype issue
 
-Hey what's good.  I'm having issues creating new posts based on archetypes provided by the theme.  Enclosed is a self-contained repository demonstrating the issue.
+Hey what's good.  I was having issues creating new posts based on archetypes provided by the theme.  Enclosed was a self-contained repository demonstrating the issue.
 
-The files in `content/test/` are the output of `hugo new` with various hugo versions and options.  The suffix denotes the hugo version used.  If the filename contains `"with-switch"`, it was generated with `hugo new -k test test/<...>`.
+The files in `content/test/` were the output of `hugo new` with various hugo versions and options.  The suffix denotes the hugo version used.  If the filename contains `"with-switch"`, it was generated with `hugo new -k test test/<...>`.
 
 ## Installation
 
@@ -13,7 +17,7 @@ This repository was created in the following manner:
 * Add `theme = "test-theme"` to `config.toml`.
 * Create `themes/test-theme/archetypes/test.md`.
 
-Two different `hugo` binaries were used.  To install the one responsible for the `0.19` files, run `brew install hugo`.  To install the one responsible for the `master` files, run `go get -u -v github.com/spf13/hugo`.
+Two different `hugo` binaries were used.  To install the one responsible for the `0.19` files, run `brew install hugo`.  To install the one responsible for the `master` files, run `go get -u -v github.com/spf13/hugo`.  <sup>(This is no longer the case on master)</sup>
 
 ## Reproduction
 
